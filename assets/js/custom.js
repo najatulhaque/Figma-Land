@@ -17,7 +17,7 @@ closeBtn.addEventListener('click',function(){
 
 // Back To Top Button
 
-var btn = $('button');
+var btn = $('#button');
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 300) {
